@@ -41,11 +41,23 @@ wynik = pieniadze >= 7 and wiek >= 16
 # np. not True => False | not False => True
 
 
-print(f"Czy możemy wejść do kina na horror? {wynik}")
+# print(f"Czy możemy wejść do kina na horror? {wynik}")
 
-print(f'False and True: {False and True}')
-print(f'False or True: {False or True}')
-print(f'not True: {not True}')
-print(f'not False: {not False}')
+# print(f'False and True: {False and True}')
+# print(f'False or True: {False or True}')
+# print(f'not True: {not True}')
+# print(f'not False: {not False}')
 
-# Najpierw wykonywany jest operator NOT, potem operator AND a na końcu OR.
+# # Najpierw wykonywany jest operator NOT, potem operator AND a na końcu OR.
+
+# # AND i OR w Pythonie działają trochę specyficznie:
+
+# True and False and True
+# False and True and True
+
+# True or False or True or False or False or False
+# False or True or False
+
+# a = 0
+# wynik = a != 0 and 100 / a > 5
+
