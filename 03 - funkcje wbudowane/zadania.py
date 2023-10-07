@@ -13,5 +13,15 @@
 
     Zadanie 4:
     Napisz program, który pobiera od użytkownika 4 słowa i oblicza średnią długość słów i wyświetla wynik. Wykorzystaj funkcje input(), len().
+    Czas do 13:50
+
+    Zadanie 5:
+    Napisz program, który pobiera od użytkownika rok jego urodzenia i oblicza jego wiek w latach oraz dniach. Wykorzystaj funkcje input(), int(), str(), len().
+    Czas do 14:00
+
+    Zadanie 6:
+    Napisz program, który pobiera od użytkownika długość podstawy i wysokość trójkąta oraz oblicza jego pole powierzchni. Wykorzystaj funkcje input() i obliczenia matematyczne.
+    Czas do 14:05
+
 
 """
