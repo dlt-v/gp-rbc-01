@@ -48,3 +48,4 @@ print(f'False or True: {False or True}')
 print(f'not True: {not True}')
 print(f'not False: {not False}')
 
+# Najpierw wykonywany jest operator NOT, potem operator AND a na końcu OR.
