@@ -4,3 +4,4 @@ print("Cześć świecie!")
 # Wydrukuj własne imię.
 
 print("Cześć Tomek")
+print("Czesc Paulina")
