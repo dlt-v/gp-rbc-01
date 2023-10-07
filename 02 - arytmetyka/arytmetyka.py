@@ -19,4 +19,5 @@ print(f"Modulo | Reszta z dzielenia: {a} % {b} = {a % b}")
 
 # 7 % 5 = ? 2
 
-
+# W arytmetyce ważne jest, gdzie są podane nawiasy. (3 + 9) / 8
+# Tak samo mnożenie i dzielenie są rozwiązywane przed dodawniem i odejmowaniem.
