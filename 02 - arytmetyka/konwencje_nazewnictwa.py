@@ -7,6 +7,8 @@
 
 # 3. Przy nazywaniu zmiennych, funkcji używamy snake_case (same małe litery, i słowa oddzielane są _ np. lista_studentow, interpretuj_dane() )
 
+# 4. Nie używamy cyfr w nazwach funkcji oraz zmiennych. Tylko litery łacińskie.
+
 # PascalCase - wszystkie słowa są kapilozowane i nie mają spacji - ListaStudentow
 # CamelCase - wszystkie słowa (oprócz pierwszego) są kapilozowane i nie mają spacji = listaStudentow
 
