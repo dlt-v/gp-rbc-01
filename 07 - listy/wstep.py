@@ -34,7 +34,35 @@ Najlepiej żeby lista była jednego typu.
 Jak ogólnie zadeklarować listę:
 nazwa_zmiennej = [a, b, c, d, e]
 """
+
+
+"""
+Elementy listy mają swój indeks - miejsce w liście.
+Tak jak uczniowie mają swój numerek, tak samo element w liście ma swoją pozycję.
+
+Tylko w przeciwieństwie do większość przypadków w realnym życiu, tutaj liczymy od 0.
+
+
+lista_zakupow = ["jablka", "banany", "chleb", "bulki"]
+ideksy            0         1         2        3
+
+Za pomocą tych indeksów możliwe jest odczynie pojedynczych elementów.
+
+"""
+
 lista_uczniow = ["Ania", "Bartek", "Czesław"]
 
-for element in lista_uczniow:
+for element in lista_uczniow: # Drukowanie całej listy.
     print(element)
+   
+lista_uczniow[2] # Drukowanie trzeciego elementu w liście
+
+print(f"Drugi element w liście to: {lista_uczniow[1]}")
+
+lista_uczniow[1] = "Mieczysław" # Modyfikowanie elementów w liście
+
+print(f"Drugi element w liście to: {lista_uczniow[1]}")
+
+# UWAGA! Program może wyrzucić błąd jeżeli wyjdziemy poza indeks.
+
+print(lista_uczniow[5])
