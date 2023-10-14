@@ -50,19 +50,58 @@ Za pomocą tych indeksów możliwe jest odczynie pojedynczych elementów.
 
 """
 
-lista_uczniow = ["Ania", "Bartek", "Czesław"]
+# lista_uczniow = ["Ania", "Bartek", "Czesław"]
 
-for element in lista_uczniow: # Drukowanie całej listy.
-    print(element)
+# for element in lista_uczniow: # Drukowanie całej listy.
+#     print(element)
    
-lista_uczniow[2] # Drukowanie trzeciego elementu w liście
+# lista_uczniow[2] # Drukowanie trzeciego elementu w liście
 
-print(f"Drugi element w liście to: {lista_uczniow[1]}")
+# print(f"Drugi element w liście to: {lista_uczniow[1]}")
 
-lista_uczniow[1] = "Mieczysław" # Modyfikowanie elementów w liście
+# lista_uczniow[1] = "Mieczysław" # Modyfikowanie elementów w liście
 
-print(f"Drugi element w liście to: {lista_uczniow[1]}")
+# print(f"Drugi element w liście to: {lista_uczniow[1]}")
 
-# UWAGA! Program może wyrzucić błąd jeżeli wyjdziemy poza indeks.
+# # UWAGA! Program może wyrzucić błąd jeżeli wyjdziemy poza indeks.
 
-print(lista_uczniow[5])
+# print(lista_uczniow[5])
+
+"""
+Lista może się rozszerzać oraz zmniejszać dynamiczne.
+"""
+
+lista_imion = ["Ania", "Bartek", "Czesław"]
+print(lista_imion)
+print(f"Ilość imion: {len(lista_imion)}")
+
+print()
+
+lista_imion.append("Dominik") # Dodanie elementu do końca listy.
+print(lista_imion)
+print(f"Ilość imion: {len(lista_imion)}")
+
+print()
+
+lista_imion.pop(2) # Usuwanie elementu o N indeksie w liście.
+print(lista_imion)
+print(f"Ilość imion: {len(lista_imion)}")
+
+print()
+
+lista_imion.pop(-1) # Usuwanie elementu ostatniego w liście.
+print(lista_imion)
+print(f"Ilość imion: {len(lista_imion)}")
+
+print()
+
+lista_imion.insert(1, "Anielina") # "Wepchanie" elementu na N indeks.
+print(lista_imion)
+print(f"Ilość imion: {len(lista_imion)}")
+
+print()
+
+lista_imion.clear() # Czyszczenie listy
+print(lista_imion)
+print(f"Ilość imion: {len(lista_imion)}")
+
