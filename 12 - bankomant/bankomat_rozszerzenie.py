@@ -1,6 +1,7 @@
 from datetime import datetime
 
-
+uzytkownik1 = ["Tomek", "4444", 100, ["15.10.2023, 15:57 - Konto zostało utworzone."]]
+uzytkownik2 = ["Marcin ", "5555", 0, ["12.10.2023, 15:57 - Konto zostało utworzone."]]
 wybor = 0
 saldo = 0
 historia_konta = [
