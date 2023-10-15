@@ -78,3 +78,9 @@ if input("Podaj PIN: ") == "1234":
 else:
 
     print("Niepoprawne dane.")
+
+"""
+Zadanie:
+Pozwól na utworzenie własnego użytkownika oraz logowanie do niego albo do innego użytkownika.
+Czas do 16:30
+"""
