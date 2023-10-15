@@ -4,6 +4,12 @@
 - x_float - jako liczba z przecinkiem
 - x_str - jako napis
 
+"""
+x_int = 43
+x_float = 0.5
+x_str = "Tomek"
+
+"""
 ======================================================================
 
 2. Utwórz zmienną napis_liczba, która przechowuje wartość "290".
@@ -52,6 +58,7 @@ Koszt biletu w danym miesiącu (miesiąc jako numer -> koszt biletu):
 - 10 -> 100 zł
 - 11 -> 100 zł
 - 12 -> 50 zł
+
 Wyświetl komunikat:
 "Cena biletów: XX zł"
 XX to wartość liczbowa
@@ -67,5 +74,42 @@ ekranie tyle wyników z rzutu kością sześcienną.
 Rzut kością sześcienną to wynik z losowania liczby od 1 do 6 (włącznie).
 
 ======================================================================
+
+7. Napisz funkcję, która przyjmuje 2 argumenty:
+- tekst, typu str
+- n, typu int
+a zwraca nowy napis, który powstaje poprzez połączenie text n razy.
+
+Szablon funkcji:
+def laczenie_slow(???) -> ???:
+    nowy_tekst = ""
+    ???
+    ???
+    return ???
+
+Zastąp wszystkie znaki zapytania odpowiednimi wyrazami/instrukcjami/itd
+
+======================================================================
+
+8. Przygotuj funkcję, która otrzymuje jeden argument: n - liczbę elementów.
+Funkcja ma zwrócić listę n - losowych elementów od 0 do 100
+Wywołaj ją kilka razy, aby sprawdzić, czy za każdym razem zwraca różne wartości
+
+======================================================================
+
+9. Napisz program aplikacji graficznej, która co 3 sekundy zmienia kolor tła. Nowy
+kolor tła powinien być losowany.
+Pamiętaj o wykorzystaniu liczby klatek do wykrycia kiedy mijają kolejne 3 sekundy
+Pamiętaj o budowaniu koloru RGB:
+RGB składa się z trzech kolorów, każdy może przyjąć wartość od 0 do 255 (włącznie)
+RGB = [R, G, B] możesz przechowywać to jako listę
+
+======================================================================
+
+10.Dodaj do swojego wykrywanie naciśnięcia klawisza 'b'.
+Jeśli taki klawisz zostanie naciśnięty kolor tła powinien zmienić się na czarny - po
+puszczeniu klawisza kolor:
+- powinien zostać na nowo wylosowany - wersja podstawowa
+- powinien wrócić poprzedni kolor - wersja rozszerzona
 
 """
